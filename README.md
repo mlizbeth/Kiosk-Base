@@ -1,3 +1,6 @@
+# Important
+In order to setup a new client, be sure to enable the Sheets and Drive API for the account they will be using and generate an oAuth token for your application.
+
 # Kiosk base application
 Base android application for kiosk creation @ Trinity University
 
