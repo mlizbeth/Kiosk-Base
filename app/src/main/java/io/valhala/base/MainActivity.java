@@ -221,7 +221,7 @@ public class MainActivity extends AppCompatActivity {
                 );
 
                 credential.setSelectedAccount(account);
-                credential.setSelectedAccountName("tigerlearningcommons@trinity.edu");
+                credential.setSelectedAccountName("");
 
                 Sheets service = new Sheets.Builder(HTTP_TRANSPORT, JSON_FACTORY, credential)
                         .setApplicationName(APPLICATION_NAME)
